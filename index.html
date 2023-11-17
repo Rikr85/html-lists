@@ -19,5 +19,101 @@
     <li>Item 2</li>
     <li>Item 3</li>
   </ol>
+  <ul>
+    <li>first item</li>
+    <li>
+      second item
+      <!-- Look, the closing </li> tag is not placed here! -->
+      <ul>
+        <li>second item first subitem</li>
+        <li>
+          second item second subitem
+          <!-- Same for the second nested unordered list! -->
+          <ul>
+            <li>second item second subitem first sub-subitem</li>
+            <li>second item second subitem second sub-subitem</li>
+            <li>second item second subitem third sub-subitem</li>
+          </ul>
+        </li>
+        <!-- Closing </li> tag for the li that
+                    contains the third unordered list -->
+        <li>second item third subitem</li>
+      </ul>
+      <!-- Here is the closing </li> tag -->
+    </li>
+    <li>third item</li>
+  </ul>
+  <ul>
+    <li>first item</li>
+    <li>
+      second item
+      <!-- Look, the closing </li> tag is not placed here! -->
+      <ol>
+        <li>second item first subitem</li>
+        <li>second item second subitem</li>
+        <li>second item third subitem</li>
+      </ol>
+      <!-- Here is the closing </li> tag -->
+    </li>
+    <li>third item</li>
+  </ul>
+  <!-- Listas ordenadads -->
+  <ol>
+    <li>Mix flour, baking powder, sugar, and salt.</li>
+    <li>In another bowl, mix eggs, milk, and oil.</li>
+    <li>Stir both mixtures together.</li>
+    <li>Fill muffin tray 3/4 full.</li>
+    <li>Bake for 20 minutes.</li>
+  </ol>
+  <ol>
+    <li>Fee</li>
+    <li>Fi</li>
+    <li>Fo</li>
+    <li>Fum</li>
+  </ol>
+  <!-- Lista ordenada usando numeros romanos -->
+  <ol type="i">
+    <li>Introduction</li>
+    <li>List of Grievances</li>
+    <li>Conclusion</li>
+  </ol>
+  <!-- Lista ordenada usando el atributo de inicio -->
+  <p>Finishing places of contestants not in the winners' circle:</p>
+  <ol start="4">
+    <li>Speedwalk Stu</li>
+    <li>Saunterin' Sam</li>
+    <li>Slowpoke Rodriguez</li>
+  </ol>
+  <!-- Lista de anidamiento -->
+  <ol>
+    <li>first item</li>
+    <li>
+      second item
+      <!-- closing </li> tag is not here! -->
+      <ol>
+        <li>second item first subitem</li>
+        <li>second item second subitem</li>
+        <li>second item third subitem</li>
+      </ol>
+    </li>
+    <!-- Here's the closing </li> tag -->
+    <li>third item</li>
+  </ol>
+  <!-- Lista desordenada dentro de una lista ordenada -->
+  <ol>
+    <li>first item</li>
+    <li>
+      second item
+      <!-- closing </li> tag is not here! -->
+      <ul>
+        <li>second item first subitem</li>
+        <li>second item second subitem</li>
+        <li>second item third subitem</li>
+      </ul>
+    </li>
+    <!-- Here's the closing </li> tag -->
+    <li>third item</li>
+  </ol>
+  
 </body>
 </html>
